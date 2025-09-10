@@ -1,0 +1,17 @@
+{
+  "name": "Halloween",
+  "phrases": {
+    "welcome": "Boo ! Bienvenue dans ma maison hantée...",
+    "goodbye": "Adieu... à bientôt dans l'ombre !"
+  },
+  "idle": {
+    "head_scan": { "amplitude_deg": 20, "period_sec": 12 },
+    "eye_saccades": { "amplitude_deg": 5, "frequency_hz": 0.3 }
+  },
+  "music": {
+    "default_mp3": "assets/halloween_theme.mp3"
+  },
+  "voice": {
+    "tts_voice": "fr+m3"
+  }
+}

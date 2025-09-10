@@ -1,0 +1,28 @@
+{
+  "hardware": {
+    "i2c_address": "0x40",
+    "emergency_gpio": 17
+  },
+  "audio": {
+    "tts_engine": "espeak-ng",
+    "tts_voice": "fr+m3",
+    "mic_device": "default",
+    "speaker_device": "default"
+  },
+  "servos": {
+    "jaw":       { "channel": 0, "min": 120, "max": 500, "idle": 300 },
+    "eye_left":  { "channel": 1, "min": 130, "max": 480, "idle": 300 },
+    "eye_right": { "channel": 2, "min": 130, "max": 480, "idle": 300 },
+    "neck_pan":  { "channel": 3, "min": 100, "max": 520, "idle": 310 },
+    "neck_tilt": { "channel": 4, "min": 120, "max": 500, "idle": 300 }
+  },
+  "llm": {
+    "provider": "openai",
+    "api_key": "",
+    "model": "gpt-3.5-turbo"
+  },
+  "safety": {
+    "temperature_max": 75,
+    "watchdog_timeout_sec": 5
+  }
+}
